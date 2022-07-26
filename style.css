@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;1,400;1,700&family=Monoton&family=Oswald:wght@700&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , 'sans-serif';
+}
+
+body {
+    width:100vw;
+    height: 100vh;
+    background: url(./Photos/red\ tulip-1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+   
+    
+}
+
+.head {
+    font-weight: 900;
+    font-size: 55px;
+    padding: 10px;
+    color:#dc134c;
+}
+
+.head-2 {
+    color: #f5f5dc;
+}
+
+h1 {
+    transition: 1s ease;
+    text-transform: uppercase;
+}
+
+h1:hover {
+    font-size: 57px;
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+   position: relative;
+}
+.nav-items {
+    margin-left: 1200px;
+}
+.nav-bar .nav-items a {
+    position: relative;
+    text-decoration: none;
+    color: #dc134d;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30px;
+
+    transition: 0.3s ease-out;
+}
+
+.nav-bar .nav-items a:hover {
+    border-bottom: #dc134d solid 3px;
+}
+
+.content {
+    padding: 300px;
+}
+
+.con-main{
+    font-size: 22px;
+}
+
+.con-h {
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    color: #dc134c;
+}
+
+.con-btn {
+    text-align: center;
+    margin-left: 550px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 17px;
+    background-color: #f5f5dc;
+    border: #f5f5dc solid 5px;
+    color: #dc134f;
+    transition: 1s ease;
+}
+
+.con-btn:hover {
+    letter-spacing: 2px;
+    color: #f5f5dc;
+    background-color: #dc134d;
+    border: #dc134d solid 5px;
+
+}
+
+.ab-us {
+    margin-top: 150px;
+    padding:120px;
+    background-color: #778899;
+}
+
+.team {
+    width: 450px;
+    margin-left: 1100px;
+}
+
+.ab-title {
+    font-size: 60px;
+    color: #fff;
+    padding: 10px;
+    transition: 1s ease;
+}
+
+.ab-title:hover {
+    font-size: 65px;
+    letter-spacing: 1px;
+}
+
+.ab-con {
+    font-size: 19px;
+    color: #fff;
+}
+
+.ab-btn {
+    padding: 13px;
+    font-size: 17px;
+    color: #fff;
+    border: #696969 solid 2px;
+    background-color:#696969;
+    margin-top: 10px;
+    transition: 1s ease;
+}
+
+.ab-btn:hover {
+    letter-spacing: 2px;
+    color: #778899;
+    border: #fff solid 2px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.c-title {
+    font-size: 65px;
+    text-align: center;
+    margin: 30px;
+    color: rgb(245, 245, 52);
+
+}
+.exp {
+    color: #e02563;
+}
+
+.dandelions{
+    width: 300px;
+    border-radius: 5px;
+}
+.cards {
+    display: flex;
+    background: rgb(195,34,113);
+    background: linear-gradient(0deg, rgba(195,34,113,1) 0%, rgba(253,233,45,1) 100%);
+    
+}
+.crd-4 {
+    width: 350px;
+    height: 450px;
+    border: rgb(226, 226, 20) solid 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+    background-color:rgb(226, 226, 20) ;
+    border-radius: 5px;
+    margin-right: 100px;
+    transition: 1s ease;
+   
+
+}
+
+.crd-4:hover {
+    width: 380px;
+    height: 480px;
+    padding: 15px;
+    
+}
+
+.crd-2 {
+    width: 350px;
+    height: 450px;
+    border: rgb(223, 65, 144) solid 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+    background-color:rgb(223, 65, 144) ;
+    border-radius: 5px;
+    margin-right: 100px;
+    transition: 1s ease;
+   
+
+}
+
+.crd-2:hover {
+    width: 380px;
+    height: 480px;
+    padding: 15px;
+    
+}
+
+.crd-3 {
+    width: 350px;
+    height: 450px;
+    border: rgb(233, 51, 121) solid 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+    background-color:rgb(233, 51, 121) ;
+    border-radius: 5px;
+    margin-right: 100px;
+    transition: 1s ease;
+   
+
+}
+
+.crd-3:hover {
+    width: 380px;
+    height: 480px;
+    padding: 15px;
+    
+}
+
+.crd-1 {
+    width: 350px;
+    height: 450px;
+    border: rgb(236, 236, 78) solid 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+    background-color:rgb(236, 236, 105) ;
+    border-radius: 5px;
+    margin-right: 100px;
+    transition: 1s ease;
+   
+
+}
+
+.crd-1:hover {
+    width: 380px;
+    height: 480px;
+    padding: 15px;
+    
+}
+
+.contact-us {
+    background-color: #bbc4cc;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px;
+}
+
+
+
+
+
